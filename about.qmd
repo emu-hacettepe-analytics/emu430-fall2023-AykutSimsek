@@ -5,26 +5,33 @@ sidebar: false
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   Onur Ateş Anadolu Lisesi, Samsun, Turkey, 2016 - 2020
+-   Industrial Engineering, Hacettepe University,Ankara, Turkey, 2020 - ongoing.
 
 # Work Experience
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
+1.  IEEE Hacettepe, Administrative Coordinator of the Computer Society, 2022-2023
 
-2.  Firm yyy, position yyy, year yyy
+2.  IEEE Hacettepe, Vice Chairman of the Board of Directors, 2023 - ongoing.
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
-
-2.  Firm bbb, position yyy, year yyy
+"I hope this place will fill up in a few months."
 
 # Projects
 
+-   Survey : Quality Dimensions Users Value Most In Smartphones
+
 # Competencies
 
-R, Quarto, Git, Python
+Programming Languages: Python, Dart, R
+
+Computer Aided-Design Softwares: SolidWorks, Catia
+
+Quarto, Git
 
 # Hobbies
+
+-   Digital Music Production on FL Stuido
