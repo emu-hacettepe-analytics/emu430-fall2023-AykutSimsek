@@ -10,11 +10,23 @@ sidebar: false
 
 # Work Experience
 
+-   2 years as a waiter
+
+-   1 year as an ice creamer
+
+-   2 years as a barista
+
+-   2 years as a wedding organizer
+
+-   ( I have not worked in a field related to my profession yet )
+
 ## Employements
 
-1.  IEEE Hacettepe, Administrative Coordinator of the Computer Society, 2022-2023
+1.  IEEE Hacettepe, Administrative Coordinator of the Computer Society, 2022-2023.
 
-2.  IEEE Hacettepe, Vice Chairman of the Board of Directors, 2023 - ongoing.
+2.  IoT Turkey, University Representative, 2022-2023.
+
+3.  IEEE Hacettepe, Vice Chairman of the Board of Directors, 2023 - ongoing.
 
 ## Internships
 
@@ -26,12 +38,16 @@ sidebar: false
 
 # Competencies
 
-Programming Languages: Python, Dart, R
+-   Programming Languages: Python, Dart, R
 
-Computer Aided-Design Softwares: SolidWorks, Catia
+-   Computer Aided-Design Softwares: SolidWorks, Catia, AutoCAD
 
-Quarto, Git
+-   Quarto, Git ( Learning Phase )
+
+-   Organizational Leadership ( Devfest 2022, Pura Game Jam 2023, Devfest 2023, ProgrammixV... )
 
 # Hobbies
 
 -   Digital Music Production on FL Stuido
+-   Mobile Application Development ( Starting - Learning Phase )
+-   Smartphone industry and current technology
