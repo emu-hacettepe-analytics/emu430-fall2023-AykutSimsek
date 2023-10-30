@@ -19,6 +19,8 @@ website:
             href: assignments.qmd
           - text: Project
             href: project.qmd
+      - text: Project
+        href: Project.qmd
             
     tools:
       - icon: github
