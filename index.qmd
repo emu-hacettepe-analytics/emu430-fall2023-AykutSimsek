@@ -6,3 +6,7 @@ sidebar: false
 Hello! My name is Aykut.
 
 Hacettepe University Industrial Engineering 3nd year student, IEEE Hacettepe Society Board Member.
+
+![***`Pura Game Jam 2022`***](images/SAVE_20220621_135902.jpg){fig-align="left" width="434"}
+
+![***`Devfest 2022`***](images/IMG_20230508_184436.jpg){fig-align="left" width="430"}

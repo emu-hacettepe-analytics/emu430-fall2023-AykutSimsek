@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Welcome to My Analytics Lab",
     "section": "",
-    "text": "Hello! My name is Aykut.\nHacettepe University Industrial Engineering 3nd year student, IEEE Hacettepe Society Board Member.\n\n\n\n Back to top"
+    "text": "Hello! My name is Aykut.\nHacettepe University Industrial Engineering 3nd year student, IEEE Hacettepe Society Board Member.\n\n\n\nPura Game Jam 2022\n\n\n\n\n\nDevfest 2022\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "assignments/assignment-2.html",
@@ -23,21 +23,21 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About Me",
+    "title": "THAT’S ME",
     "section": "",
-    "text": "Onur Ateş Anadolu Lisesi, Samsun, Turkey, 2016 - 2020\nIndustrial Engineering, Hacettepe University,Ankara, Turkey, 2020 - ongoing."
+    "text": "-&gt; Here is MY CV"
   },
   {
     "objectID": "about.html#employements",
     "href": "about.html#employements",
-    "title": "About Me",
+    "title": "THAT’S ME",
     "section": "Employements",
     "text": "Employements\n\nIEEE Hacettepe, Administrative Coordinator of the Computer Society, 2022-2023.\nIoT Turkey, University Representative, 2022-2023.\nIEEE Hacettepe, Vice Chairman of the Board of Directors, 2023 - ongoing."
   },
   {
     "objectID": "about.html#internships",
     "href": "about.html#internships",
-    "title": "About Me",
+    "title": "THAT’S ME",
     "section": "Internships",
     "text": "Internships\n“I hope this place will fill up in a few months.”"
   },
@@ -60,7 +60,7 @@
     "href": "posts.html",
     "title": "My Blog",
     "section": "",
-    "text": "This page is under construction.\n\n\n\n Back to top"
+    "text": "Here is my survey about the quality dimensions that are considered important in smartphones :\nSurvey Link\n\n\n\n Back to top"
   },
   {
     "objectID": "GitHub_MySite/Survey (TEST).html",
@@ -75,5 +75,19 @@
     "title": "HW-1",
     "section": "",
     "text": "Back to top"
+  },
+  {
+    "objectID": "Survey (TEST).html",
+    "href": "Survey (TEST).html",
+    "title": "Survey",
+    "section": "",
+    "text": "Here is my survey about the quality dimensions that are considered important in smartphones :\nSurvey Link\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "docs/Project.html",
+    "href": "docs/Project.html",
+    "title": "Our Course Project",
+    "section": "",
+    "text": "I’m honored to be a member of the [group name] project team.\nBelow, you’ll find a brief summary of our project. To access a detailed project description, please go to https://[your-project-url].\nSummary\n[provide a biref summary of your project]\n\n\n\n Back to top"
   }
 ]

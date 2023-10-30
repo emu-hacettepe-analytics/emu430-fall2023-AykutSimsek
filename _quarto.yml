@@ -19,14 +19,10 @@ website:
             href: assignments.qmd
           - text: Project
             href: project.qmd
-      - text: Project
-        href: Project.qmd
             
     tools:
       - icon: github
         href: https://github.com/AykutSimsek
-      - icon: twitter
-        href: https://twitter.com
       - icon: linkedin
         href: https://www.linkedin.com/in/aykut-şimşek-652a7b231/
       - icon: instagram

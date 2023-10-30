@@ -1,7 +1,9 @@
 ---
-title: "About Me"
+title: "THAT'S ME"
 sidebar: false 
 ---
+
+-\> Here is [MY CV](https://drive.google.com/file/d/1umWm9l1AnwiuAjCYUYSDHWNP4AfholY6/view?usp=drive_link)
 
 # Education
 
