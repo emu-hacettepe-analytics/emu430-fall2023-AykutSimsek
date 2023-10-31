@@ -12,16 +12,6 @@ sidebar: false
 
 # Work Experience
 
--   2 years as a waiter
-
--   1 year as an ice creamer
-
--   2 years as a barista
-
--   2 years as a wedding organizer
-
--   ( I have not worked in a field related to my profession yet )
-
 ## Employements
 
 1.  IEEE Hacettepe, Administrative Coordinator of the Computer Society, 2022-2023.
@@ -29,6 +19,18 @@ sidebar: false
 2.  IoT Turkey, University Representative, 2022-2023.
 
 3.  IEEE Hacettepe, Vice Chairman of the Board of Directors, 2023 - ongoing.
+
+    (***other areas***) \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+
+    -   2 years as a waiter
+
+    -   1 year as an ice cream seller
+
+    -   2 years as a barista
+
+    -   2 years as a wedding organizer
+
+    -   ( I have not worked in a field related to my profession yet )
 
 ## Internships
 
