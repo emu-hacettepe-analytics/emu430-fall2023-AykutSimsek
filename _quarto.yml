@@ -45,10 +45,10 @@ format:
   html:
     toc: true
     toc-location: left
-    theme: 
-      light: pulse 
-      dark: superhero
-    css: styles.css
+    theme: cyborg
+    #theme: superhero ve darkly bu da güzel
+    css: styles.cs
+   
 
 
 editor: visual
