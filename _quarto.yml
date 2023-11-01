@@ -13,6 +13,8 @@ website:
         href: about.qmd
       - text: My Posts
         href: posts.qmd
+      - text: Organizations
+        href: organizations.qmd
       - text: "EMU430 Coursework"
         menu:
           - text: Assignments

@@ -8,7 +8,8 @@ sidebar: false
 # Education
 
 -   Onur Ateş Anadolu Lisesi, Samsun, Turkey, 2016 - 2020
--   Industrial Engineering, Hacettepe University,Ankara, Turkey, 2020 - ongoing.
+-   Mechanical Engineering, Hacettepe University, Ankara, Turkey, 2020 - 2022
+-   Industrial Engineering, Hacettepe University, Ankara, Turkey, 2022 - ongoing.
 
 # Work Experience
 
@@ -38,7 +39,7 @@ sidebar: false
 
 # Projects
 
--   Survey : Quality Dimensions Users Value Most In Smartphones
+-   Survey : Quality Dimensions Users Value Most In Smartphones.
 
 # Competencies
 
@@ -52,6 +53,6 @@ sidebar: false
 
 # Hobbies
 
--   Digital Music Production on FL Stuido
--   Mobile Application Development ( Starting - Learning Phase )
--   Smartphone industry and current technology
+-   Digital Music Production on FL Stuido.
+-   Mobile Application Development ( Starting - Learning Phase ).
+-   Smartphone industry and current technology.
