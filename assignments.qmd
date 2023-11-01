@@ -3,3 +3,5 @@ title: "My Assignments"
 ---
 
 *\|\|\| This is the page for the assignments of my 'Data Analytics' course. You can navigate to the relevant assignment using the menu on the right. \|\|\|*
+
+![](images/ApiG-02.gif){fig-align="center"}
