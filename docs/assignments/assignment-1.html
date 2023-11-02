@@ -97,7 +97,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="styles.cs">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -127,7 +127,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../posts.html" rel="" target="">
- <span class="menu-text">My Posts</span></a>
+ <span class="menu-text">My Blog</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../organizations.html" rel="" target="">
@@ -202,7 +202,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
     </ul>
     </div>
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#task-1-video-reviwe-gt-table-battles-eurovision-rstudio-posit-pbcv" id="toc-task-1-video-reviwe-gt-table-battles-eurovision-rstudio-posit-pbcv" class="nav-link active" data-scroll-target="#task-1-video-reviwe-gt-table-battles-eurovision-rstudio-posit-pbcv">TASK-1 : Video Reviwe : <strong>{gt} Table Battles || Eurovision || RStudio ( Posit PBCV)</strong></a></li>
+  <li><a href="#task-2-differences-between-r-and-python" id="toc-task-2-differences-between-r-and-python" class="nav-link" data-scroll-target="#task-2-differences-between-r-and-python"><strong><em>TASK-2 : Differences between R and Python</em></strong></a></li>
+  <li><a href="#task-3-na-example" id="toc-task-3-na-example" class="nav-link" data-scroll-target="#task-3-na-example"><strong><em>TASK-3 : NA Example</em></strong></a></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
@@ -228,9 +236,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p><strong><em>TASK-1 : Differences between R and Python</em></strong></p>
-<p><strong><em>1- Syntax Difference</em></strong></p>
-<p><strong><code>Assignment Method</code></strong></p>
+<section id="task-1-video-reviwe-gt-table-battles-eurovision-rstudio-posit-pbcv" class="level3">
+<h3 class="anchored" data-anchor-id="task-1-video-reviwe-gt-table-battles-eurovision-rstudio-posit-pbcv">TASK-1 : Video Reviwe : <strong>{gt} Table Battles || Eurovision || RStudio ( Posit PBCV)</strong></h3>
+<ul>
+<li><p>Jesse and Rich are having a little competition to create the Eurovision Song Contest Winners album. They will both take turns creating a table in R using the data containing the Competition Winners.</p></li>
+<li><p><code>https://liamdbailey.com/posts/2020-11-27-making-beautiful-tables-with-gt/</code> From there they received the data for free.</p></li>
+<li><p>Jesse said that he wanted to use the flags and codes of the country and that they were all ready on the Liam D. Bailey site and that he spent 3 or 4 hours trying to do this. This part was a bit challenging. (It is necessary to have the files ready, then use the text conversion and then other image functions.)</p></li>
+<li><p>She found the title by googling it with a beautiful font called “Rock Salt”. (I will use this too.)</p></li>
+<li><p>Since he wanted to have a table that responds to different inputs, he customized the table by adding “chose a country” and “chose a rank form 1 to 3” options with some coding. For example, when Germany is selected, Germany data appears. It is also possible to select multiple countries at the same time.</p></li>
+<li><p>Rich created an animated painting by adding gifs he took from YouTube next to the songs. At the same time, the background of the “Eurovision” text in the title has a structure that slides and changes color.</p></li>
+<li><p><strong><em>I would never have thought that such things could be done with R. A truly impressive work has emerged.</em></strong></p></li>
+</ul>
+</section>
+<section id="task-2-differences-between-r-and-python" class="level3">
+<h3 class="anchored" data-anchor-id="task-2-differences-between-r-and-python"><strong><em>TASK-2 : Differences between R and Python</em></strong></h3>
+<section id="syntax-difference" class="level4">
+<h4 class="anchored" data-anchor-id="syntax-difference"><strong><em>1- Syntax Difference</em></strong></h4>
+<section id="assignment-method" class="level5">
+<h5 class="anchored" data-anchor-id="assignment-method"><strong><code>Assignment Method</code></strong></h5>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>my_name <span class="ot">&lt;-</span> <span class="st">"Aykut Simsek"</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(my_name)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -245,7 +268,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <pre><code>Aykut Simsek</code></pre>
 </div>
 </div>
-<p><strong><em>2- Vectors and Lists</em></strong></p>
+</section>
+</section>
+<section id="vectors-and-lists" class="level4">
+<h4 class="anchored" data-anchor-id="vectors-and-lists"><strong><em>2- Vectors and Lists</em></strong></h4>
 <p>One of the frequently used tools for storing data in Python is <code>list</code>. However, in the R language, <code>vector</code> are used to store data.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># We can use c() function for creating a vector.</span></span>
@@ -265,7 +291,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <pre><code>['Data Anlytics', 'Quality Management', 'Material Science', 'Probability and Statistics', 'Production Planning and Control', 'MUH101']</code></pre>
 </div>
 </div>
-<p><strong><em>3- Indexing</em></strong></p>
+</section>
+<section id="indexing" class="level4">
+<h4 class="anchored" data-anchor-id="indexing"><strong><em>3- Indexing</em></strong></h4>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>my_favorite_teacher <span class="ot">&lt;-</span> <span class="st">"Erdi Dasdemir"</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="co"># It is a real information</span></span>
@@ -304,7 +332,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <pre><code>(10, 100)</code></pre>
 </div>
 </div>
-<p><strong><em>TASK-2 : NA Example</em></strong></p>
+</section>
+</section>
+<section id="task-3-na-example" class="level3">
+<h3 class="anchored" data-anchor-id="task-3-na-example"><strong><em>TASK-3 : NA Example</em></strong></h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"dslabs"</span>)</span>
 <span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(na_example)</span>
@@ -363,6 +394,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <pre><code>Bu vektorde toplam 145 adet NA bulunmaktadır</code></pre>
 </div>
 </div>
+<ul>
+<li><p><em>Python’da yaptığımız gibi print içerisinde string ve değişkeni aynı anda R’da ekrana yazdıramadım.</em></p></li>
+<li><p><em>ChatGPT’ye “R dilinde tek parantez içinde hem bir değişken hem bir character türünü ekrana yazdırabileceğimiz bir fonksiyon bulunuyor mu?” diye sordum.</em></p></li>
+<li><p>*<code>degisken &lt;- 42     character &lt;- "Merhaba, Dünya!"</code></p>
+<p>Değişken ve karakter türünü tek parantez içinde ekrana verdirme: <code>cat("Değişken: ", degisken, " Karakter: ", character, "\n")</code>*</p></li>
+<li><p><em>Bu çıktıyı aldım ve R’da bu işlev için <code>cat()</code> fonksiyonunu kullanmamız gerektiğini öğrendim.</em></p></li>
+</ul>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"dslabs"</span>)</span>
 <span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(na_example)</span>
@@ -401,8 +439,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 [1000] 2</code></pre>
 </div>
 </div>
+<ul>
+<li><p>NA’lar yerine “0” ekleyemediğim için ChatGPT’den yardım aldım.</p></li>
+<li><p># NA’ları 0 ile doldur na_example_filled &lt;- ifelse(is.na(na_example), 0, na_example)</p></li>
+<li><p>Bu kod, <strong><code>is.na</code></strong> fonksiyonuyla <strong><code>na_example</code></strong> veri çerçevesindeki <strong><code>NA</code></strong> değerlerini kontrol eder ve <strong><code>ifelse</code></strong> ile <strong><code>NA</code></strong> değerlerini 0 ile değiştirir. Ardından, <strong><code>na_example_filled</code></strong> adlı yeni bir veri çerçevesi veya vektör oluşturulur ve <strong><code>NA</code></strong> değerleri 0 ile değiştirilmiş şekilde görüntülenir.</p></li>
+</ul>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

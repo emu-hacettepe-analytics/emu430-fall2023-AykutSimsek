@@ -4,6 +4,8 @@ project:
 
 website:
   title: "Aykut Şimşek's Analytics Lab"
+  
+
   navbar:
     search: true
     left:
@@ -11,7 +13,7 @@ website:
         href: index.qmd
       - text: About Me
         href: about.qmd
-      - text: My Posts
+      - text: My Blog
         href: posts.qmd
       - text: Organizations
         href: organizations.qmd
@@ -47,9 +49,10 @@ format:
   html:
     toc: true
     toc-location: left
+    
     theme: cyborg
-    #theme: superhero ve darkly bu da güzel
-    css: styles.cs
+    #theme: superhero ve darkly vev lux bu da güzel
+    css: styles.css
    
 
 

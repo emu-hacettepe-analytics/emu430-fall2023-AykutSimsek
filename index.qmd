@@ -3,9 +3,13 @@ title: "Welcome to My Analytics Lab"
 sidebar: false 
 ---
 
-Hello! My name is Aykut.
+**Hi, I\'m Aykut. I\'m third year Industrial Engineering Student at Hacettepe University.**
 
-Hacettepe University Industrial Engineering 3nd year student, IEEE Hacettepe Society Board Member.
+**At the same time I am a board member of IEEE Hacettepe, the largest techno-professional community in the world and in our school.**
+
+**I love programming, listening and making songs.**
+
+[`My Card`](https://bento.me/aykutsmsk)
 
 ![](images/14U6-01.gif){width="41"}
 

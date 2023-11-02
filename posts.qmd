@@ -1,13 +1,17 @@
 ---
 title: "My Blog"
-sidebar: false 
+sidebar: false
 ---
 
-***Here is my [survey report](https://drive.google.com/file/d/11JeGPAZnZ9Z8ohHYUQnv28hmzSDRJiFh/view?usp=drive_link)*** ***about the quality dimensions that are considered important in smartphones. ( October - 2023 )***
+### Survey Report
+
+***Here is my [survey report](https://drive.google.com/file/d/11JeGPAZnZ9Z8ohHYUQnv28hmzSDRJiFh/view?usp=drive_link)*** ***about the quality dimensions that are considered important in smartphones. ( October - 2023 ) ( Quality Management )***
 
 ![](images/74Zh.gif){width="254"}
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+
+### Beats
 
 ***Here is my favorite beats that I produced.***
 
@@ -23,16 +27,26 @@ sidebar: false
 
 [***Seventeen***](https://soundcloud.com/user-426111215/17a/s-Mwt5IkDI9F7?si=d5c63ca1829c4fa8b0ccf777c9c74937&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-**The final stage video of the "Pura Game Jam'23" competition that I organized within the scope of the "Computer Society" unit, of which I served as the president for the 2022-2023 academic year :**
+### Pura Game Jam
+
+***The final stage video of the "Pura Game Jam'23" competition that I organized within the scope of the "Computer Society" unit, of which I served as the president for the 2022-2023 academic year :***
 
 ![](images/pacman-734_256.gif){width="254"}
 
 [***Final Etap Video ( Live Cast )***](https://www.youtube.com/live/e_5Iy9uJ4Iw?si=K9Ull8n7Vq3ftUEo)
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+
+### Advice Video (Mech. Eng.)
+
+***I have a [college application advice video](https://www.youtube.com/watch?v=4CKD12YSNf8&t=570s)*** ***from the days when I was studying mechanical engineering. Students who watched this video got accepted to the Hacettepe University Mechanical Engineering program. However, by the time they approached me, I had switched to industrial engineering 😅😅😉😉***
+
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+
+### Internship Report (Mec. Eng.)
 
 ***Here is my*** [***Internship report***](https://drive.google.com/file/d/10M1pHxDi-yzMD_AkHYP7ZVRZeZ2zAO5V/view?usp=sharing "Raport Link") ***about "Mechanical Engineering Workshops" that I prepared in my first year of mechanical engineering. ( September - 2021 )***
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
