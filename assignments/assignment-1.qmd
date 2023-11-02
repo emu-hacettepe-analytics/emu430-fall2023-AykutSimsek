@@ -2,7 +2,7 @@
 title: "Assignment 1"
 ---
 
-### TASK-1 : Video Review : **{gt} Table Battles \|\| Eurovision \|\| RStudio ( Posit PBCV)**
+### TASK-1 : Video Review : **{gt} Table Battles \|\| Eurovision \|\| RStudio ( Posit PBCV) asdasddasd**
 
 -   Jesse and Rich are having a little competition to create the Eurovision Song Contest Winners album. They will both take turns creating a table in R using the data containing the Competition Winners.
 
