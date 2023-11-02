@@ -2,15 +2,13 @@
 title: "Assignment 1"
 ---
 
-### TASK-1 : Video Reviwe : **{gt} Table Battles \|\| Eurovision \|\| RStudio ( Posit PBCV)**
+### TASK-1 : Video Review : **{gt} Table Battles \|\| Eurovision \|\| RStudio ( Posit PBCV)**
 
 -   Jesse and Rich are having a little competition to create the Eurovision Song Contest Winners album. They will both take turns creating a table in R using the data containing the Competition Winners.
 
--   `https://liamdbailey.com/posts/2020-11-27-making-beautiful-tables-with-gt/`
-    From there they received the data for free.
+-   `https://liamdbailey.com/posts/2020-11-27-making-beautiful-tables-with-gt/` From there they received the data for free.
 
--   Jesse said that he wanted to use the flags and codes of the country and that they were all ready on the Liam D. Bailey site and that he spent 3 or 4 hours trying to do this. This part was a bit challenging.
-    (It is necessary to have the files ready, then use the text conversion and then other image functions.)
+-   Jesse said that he wanted to use the flags and codes of the country and that they were all ready on the Liam D. Bailey site and that he spent 3 or 4 hours trying to do this. This part was a bit challenging. (It is necessary to have the files ready, then use the text conversion and then other image functions.)
 
 -   She found the title by googling it with a beautiful font called "Rock Salt". (I will use this too.)
 
@@ -91,11 +89,9 @@ cat("Bu vektorde toplam", number_of_na, "adet NA bulunmaktadır")
 
 -   *ChatGPT'ye "R dilinde tek parantez içinde hem bir değişken hem bir character türünü ekrana yazdırabileceğimiz bir fonksiyon bulunuyor mu?" diye sordum.*
 
--   *`degisken <- 42
-    character <- "Merhaba, Dünya!"`
+-   \*`degisken <- 42     character <- "Merhaba, Dünya!"`
 
-    Değişken ve karakter türünü tek parantez içinde ekrana verdirme:
-    `cat("Değişken: ", degisken, " Karakter: ", character, "\n")`*
+    Değişken ve karakter türünü tek parantez içinde ekrana verdirme: `cat("Değişken: ", degisken, " Karakter: ", character, "\n")`\*
 
 -   *Bu çıktıyı aldım ve R'da bu işlev için `cat()` fonksiyonunu kullanmamız gerektiğini öğrendim.*
 
@@ -111,7 +107,6 @@ print(naless_example)
 
 -   NA'lar yerine "0" ekleyemediğim için ChatGPT'den yardım aldım.
 
--   \# NA'ları 0 ile doldur
-    na_example_filled \<- ifelse(is.na(na_example), 0, na_example)
+-   \# NA'ları 0 ile doldur na_example_filled \<- ifelse(is.na(na_example), 0, na_example)
 
 -   Bu kod, **`is.na`** fonksiyonuyla **`na_example`** veri çerçevesindeki **`NA`** değerlerini kontrol eder ve **`ifelse`** ile **`NA`** değerlerini 0 ile değiştirir. Ardından, **`na_example_filled`** adlı yeni bir veri çerçevesi veya vektör oluşturulur ve **`NA`** değerleri 0 ile değiştirilmiş şekilde görüntülenir.
