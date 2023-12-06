@@ -17,6 +17,8 @@ website:
         href: posts.qmd
       - text: Organizations
         href: organizations.qmd
+      - text: My Studies
+        href: MyStudies.qmd
       - text: "EMU430 Coursework"
         menu:
           - text: Assignments

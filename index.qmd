@@ -1,9 +1,10 @@
 ---
-title: "Welcome to My Analytics Lab"
 sidebar: false 
 ---
 
-**Hi, I\'m Aykut. I\'m third year Industrial Engineering Student at Hacettepe University.**
+![](images/text (9).gif){fig-align="center"}
+
+**Hi, I'm Aykut. I'm third year Industrial Engineering Student at Hacettepe University.**
 
 **At the same time I am a board member of IEEE Hacettepe, the largest techno-professional community in the world and in our school.**
 
