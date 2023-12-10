@@ -3,10 +3,8 @@ title: "Our Course Project"
 sidebar: false 
 ---
 
-I'm honored to be a member of the \[group name\] project team.
+**I'm honored to be a member of the CTRL_S project team.**
 
-Below, you'll find a brief summary of our project. To access a detailed project description, please go to [https://\[your-project-url\]](#0){.uri}.
+**Stay Tuned :** [***Ctrl_S Project Page***](https://emu-hacettepe-analytics.github.io/emu430-fall2023-team-ctrl_s/)
 
-**Summary**
-
-\[provide a biref summary of your project\]
+![](images/daonline.gif)

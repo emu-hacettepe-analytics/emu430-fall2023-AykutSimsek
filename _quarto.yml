@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Aykut Şimşek's Analytics Lab"
+  title: "Aykut Şimşek's WebPage"
   
 
   navbar:
@@ -34,7 +34,7 @@ website:
       - icon: instagram
         href: https://www.instagram.com/a.smsk0o0/
 
-  sidebar:
+  sidebar: 
     - title: "Assignments"
       style: "docked"
       search: true
@@ -49,8 +49,8 @@ website:
     border: true
 format:
   html:
-    toc: true
-    toc-location: left
+    toc: false
+    # toc-location: left
     
     theme: cyborg
     #theme: superhero ve darkly vev lux bu da güzel

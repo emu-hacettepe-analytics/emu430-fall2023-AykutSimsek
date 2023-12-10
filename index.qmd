@@ -1,21 +1,35 @@
 ---
-sidebar: false 
+sidebar: false
 ---
 
-![](images/text (9).gif){fig-align="center"}
+![](images/Black%20and%20White%20Simple%20Animated%20Personal%20Name%20Initials%20Logo%20(5)%20(1).gif){fig-align="center" width="315"}
 
-**Hi, I'm Aykut. I'm third year Industrial Engineering Student at Hacettepe University.**
+<center>**Hi, I'm Aykut. I'm third year Industrial Engineering Student at Hacettepe University.**<center>[`My Card`](https://bento.me/aykutsmsk)</center></center>
 
-**At the same time I am a board member of IEEE Hacettepe, the largest techno-professional community in the world and in our school.**
+<br>
 
-**I love programming, listening and making songs.**
+<center>**At the same time I am a board member of IEEE Hacettepe, the largest techno-professional community in the world and in our school.**</center>
 
-[`My Card`](https://bento.me/aykutsmsk)
+<br>
 
-![](images/14U6-01.gif){width="41"}
+<center>**I love programming, playing games and listening / making songs.**</center>
 
-![***Pura Game Jam 2022***](images/SAVE_20220621_135902-01.jpg){fig-align="left" width="457"}
+<br>
 
-![***Devfest 2022***](images/IMG_9111.jpg){fig-align="left" width="457"}
+<center>
 
-![***IEEE Hacettepe***](images/Genel%20kurul%205%20(3)-01.jpg){fig-align="left" width="457"}
+![***Pura Game Jam 2022***](images/SAVE_20220621_135902-01.jpg){fig-align="center" width="457"}
+
+</center>
+
+<center>
+
+![***Devfest 2022***](images/IMG_9111.jpg){fig-align="center" width="457"}
+
+</center>
+
+<center>
+
+![***IEEE Hacettepe***](images/Genel%20kurul%205%20(3)-01.jpg){fig-align="center" width="457"}
+
+</center>

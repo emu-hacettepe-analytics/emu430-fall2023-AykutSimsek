@@ -2,5 +2,3 @@
 title: "Organizations"
 sidebar: false
 ---
-
-![***Coming Soon***](images/QDWt.gif){fig-alt="Coming Soon" fig-align="center" width="666"}
