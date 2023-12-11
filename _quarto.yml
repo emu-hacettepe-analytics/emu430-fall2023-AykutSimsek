@@ -17,8 +17,8 @@ website:
         href: posts.qmd
       - text: Organizations
         href: organizations.qmd
-      - text: My Studies
-        href: MyStudies.qmd
+      - text: My Favourites
+        href: my_favourites.qmd
       - text: "EMU430 Coursework"
         menu:
           - text: Assignments
@@ -51,12 +51,8 @@ format:
   html:
     toc: false
     # toc-location: left
-    
     theme: cyborg
     #theme: superhero ve darkly vev lux bu da güzel
     css: styles.css
-   
-
-
 editor: visual 
 

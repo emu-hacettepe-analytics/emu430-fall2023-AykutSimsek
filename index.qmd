@@ -4,7 +4,13 @@ sidebar: false
 
 ![](images/Black%20and%20White%20Simple%20Animated%20Personal%20Name%20Initials%20Logo%20(5)%20(1).gif){fig-align="center" width="315"}
 
-<center>**Hi, I'm Aykut. I'm third year Industrial Engineering Student at Hacettepe University.**<center>[`My Card`](https://bento.me/aykutsmsk)</center></center>
+<center>
+
+**Hi, I'm Aykut. I'm third year Industrial Engineering Student at Hacettepe University.**
+
+<center>[`My Card`](https://bento.me/aykutsmsk)</center>
+
+</center>
 
 <br>
 

@@ -131,5 +131,19 @@
     "title": "WorkMyself",
     "section": "",
     "text": "D0E\u001flem sD1rasD1nda yanlD1E\u001f bir mantD1ksal operatC6r kullanmak, beklenen sonuC’larD1 elde edememenize neden olabilir.\n\nif x &lt; 5 and x &gt; 10:\n    print(\"x, 5 ile 10 arasD1nda deD\u001fil\")\n\nBu kod, x’in hem 5’ten kC&lt;C’C&lt;k hem de 10’dan bC&lt;yC&lt;k olmasD1nD1 kontrol eder, bu yC&lt;zden hiC’bir zaman doD\u001fru olmaz.\n\n\n\nBir fonksiyonun beklenen sonucu dC6ndC&lt;rmemesi, semantik bir hatadD1r.\n\ndef toplama(a, b):\n    return a - b\n\nsonuc = toplama(5, 3)  # Beklenen sonuC' 5 + 3 = 8, ancak fonksiyon yanlD1E\u001f sonuC' dC6ndC&lt;rC&lt;yor\n\n\n\n\nDC6ngC&lt;lerin yanlD1E\u001f baE\u001flatD1lmasD1 veya yanlD1E\u001f bir E\u001fekilde C’alD1E\u001ftD1rD1lmasD1 semantik hatalara yol aC’abilir.\n\nfor i in range(10):\n    if i &lt; 5:\n        print(\"Daha bC&lt;yC&lt;k!\")\n\nBu dC6ngC&lt;, i 5’ten kC&lt;C’C&lt;k olduD\u001funda hiC’bir E\u001fey yazdD1rmaz, ancak muhtemelen her zaman doD\u001fru sonuC’ almak isteniyordur.\nSemantik hatalar, kodun mantD1D\u001fD1nD1 anlayarak ve beklenen sonuC’larD1 dikkate alarak tespit edilmeli ve giderilmelidir. Genellikle kod incelemesi ve testler kullanD1larak bu tC&lt;r hatalar bulunur ve dC&lt;zeltilir.\nPythonda bu hatalar diD\u001fer hatalar gibi uyarD1 olarak verilmiyor."
+  },
+  {
+    "objectID": "my_pleasures.html",
+    "href": "my_pleasures.html",
+    "title": "My Pleasures",
+    "section": "",
+    "text": "Music empowers me.\nMy top lists in spotify\n1 - Mahkeme Şarkısı\n2 - Kurtulmak / Ahiyan\n3 - Kurtulamadım / Ahiyan\n4 - God’s Menu / Stray Kids\n5 - ITEM / Stray Kids\n6 - Get Lit / Stray Kids\n7 - 飞天 (Flying Apsaras) / Lay\n8 - Geceler / Sagopa Kajmer\n9 - Again / Jaden\n10 - N / Jaden\n11 - Serbest / Sagopa Kajmer\n12 - Guerilla / Ateez\n13 - Thunderous / Stray Kids\n14 - Favourite Girl Acoustic / Justin Bieber\n15 - Hikakomori / Bang Yongguk\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "my_favourites.html",
+    "href": "my_favourites.html",
+    "title": "Music empowers me.",
+    "section": "",
+    "text": "Music empowers me.\n\nMy top song lists in spotify\n1 - Mahkeme Şarkısı / Ahiyan\n2 - Kurtulmak / Ahiyan\n3 - Kurtulamadım / Ahiyan\n4 - God’s Menu / Stray Kids\n5 - ITEM / Stray Kids\n6 - Get Lit / Stray Kids\n7 - 飞天 (Flying Apsaras) / Lay\n8 - Geceler / Sagopa Kajmer\n9 - Again / Jaden\n10 - N / Jaden\n11 - Serbest / Sagopa Kajmer\n12 - Guerilla / Ateez\n13 - Thunderous / Stray Kids\n14 - Favourite Girl Acoustic / Justin Bieber\n15 - Hikakomori / Bang Yongguk\n16 - Ayrılık / Selda Bağcan\n17 - Öyle Bir Yerdeyim ki / Selda Bağcan\n\n\nMy top singer lists in spotify\n1 - Sagopa Kajmer\n2 - Stray Kids\n3 - Ahiyan\n4 - Jaden\n5 - Justin Bieber\n6 - Selda Bağcan\n7 - Bang Yongguk\n8 - Ateez\n\n\n\n\n\n Back to top"
   }
 ]
