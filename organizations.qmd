@@ -1,4 +1,31 @@
 ---
-title: "Organizations"
 sidebar: false
 ---
+
+# ORGANIZATIONS
+
+# Pura Game Jam'23
+
+![](images/GameJam.jpg){fig-align="center"}
+
+![](images/Black%20Collage%20Back%20to%20School%20Photo%20Collage.png){fig-align="center"}
+
+[Click for the final stage](https://www.youtube.com/watch?v=e_5Iy9uJ4Iw)
+
+# Devfest'23 ( Google Developer Groups & IEEE Hacettepe )
+
+![](images/Devfest.jpg){fig-align="center"}
+
+# Career Fair'23
+
+![](images/Seyahat%20Kolaj.jpg){fig-align="center"}
+
+# Programmix-V
+
+![](images/Black%20Collage%20Back%20to%20School%20Photo%20Collage.jpg){fig-align="center"}
+
+![](images/p51.jpg){fig-align="center" width="568"}
+
+# My First Committee Meeting
+
+![](images/CSTOPLANTI2.jpg){fig-align="center"}
