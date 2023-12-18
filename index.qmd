@@ -2,11 +2,11 @@
 sidebar: false
 ---
 
-![](images/Black%20and%20White%20Simple%20Animated%20Personal%20Name%20Initials%20Logo%20(5)%20(1).gif){fig-align="center" width="315"}
+![](images/Black%20and%20White%20Simple%20Animated%20Personal%20Name%20Initials%20Logo%20(5)%20(1).gif){fig-align="center" width="290"}
 
 <center>
 
-**Hi, I'm Aykut. I'm third year Industrial Engineering Student at Hacettepe University.**
+**Hi, it's Aykut. I'm currently in my junior year of studies in Industrial Engineering at Hacettepe University**
 
 <center>[`My Card`](https://bento.me/aykutsmsk)</center>
 
@@ -14,7 +14,7 @@ sidebar: false
 
 <br>
 
-<center>**At the same time I am a board member of IEEE Hacettepe, the largest techno-professional community in the world and in our school.**</center>
+<center>**I also serve as a board member of IEEE Hacettepe, which stands as the largest techno-professional community globally and within our university.**</center>
 
 <br>
 
@@ -30,7 +30,7 @@ sidebar: false
 
 <center>
 
-![***Devfest 2022***](images/IMG_9111.jpg){fig-align="center" width="457"}
+![***Kariyer Fuarı 2022***](images/IMG_9111.jpg){fig-align="center" width="457"}
 
 </center>
 
