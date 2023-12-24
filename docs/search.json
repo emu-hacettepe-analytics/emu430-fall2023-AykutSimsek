@@ -2,9 +2,9 @@
   {
     "objectID": "project.html",
     "href": "project.html",
-    "title": "Our Course Project",
+    "title": "Course Projects",
     "section": "",
-    "text": "I’m honored to be a member of the CTRL_S project team.\nStay Tuned : Ctrl_S Project Page\n\n\n\n\n Back to top"
+    "text": "I’m honored to be a member of the CTRL_S project team.\nStay Tuned : Ctrl_S Project Page"
   },
   {
     "objectID": "index.html",
@@ -60,7 +60,7 @@
     "href": "posts.html",
     "title": "My Blog",
     "section": "",
-    "text": "Survey Report\nHere is my survey report about the quality dimensions that are considered important in smartphones. ( October - 2023 ) ( Quality Management )\n\n-------------------------------------------------------------------------------------------------\n\n\nBeats\nHere is my favorite beats that I produced.\n\nForest\nand another :\nNameless\nand one more :\nSeventeen\n-------------------------------------------------------------------------------------------------\n\n\nPura Game Jam\nThe final stage video of the “Pura Game Jam’23” competition that I organized within the scope of the “Computer Society” unit, of which I served as the president for the 2022-2023 academic year :\n\nFinal Etap Video ( Live Cast )\n-------------------------------------------------------------------------------------------------\n\n\nAdvice Video (Mech. Eng.)\nI have a college application advice video from the days when I was studying mechanical engineering. Students who watched this video got accepted to the Hacettepe University Mechanical Engineering program. However, by the time they approached me, I had switched to industrial engineering 😅😅😉😉\n-------------------------------------------------------------------------------------------------\n\n\nInternship Report (Mec. Eng.)\nHere is my Internship report about “Mechanical Engineering Workshops” that I prepared in my first year of mechanical engineering. ( September - 2021 )\n-------------------------------------------------------------------------------------------------\n\n\n\n\n Back to top"
+    "text": "Survey Report\nHere is my survey report about the quality dimensions that are considered important in smartphones. ( October - 2023 ) ( Quality Management )\n\n\n\n\n\nBeats\nHere is my favorite beats that I produced.\n\nForest\nand another :\nNameless\nand one more :\nSeventeen\n\n\n\n\nPura Game Jam\nThe final stage video of the “Pura Game Jam’23” competition that I organized within the scope of the “Computer Society” unit, of which I served as the president for the 2022-2023 academic year :\n\nFinal Etap Video ( Live Cast )\n\n\n\n\nAdvice Video (Mech. Eng.)\nI have a college application advice video from the days when I was studying mechanical engineering. Students who watched this video got accepted to the Hacettepe University Mechanical Engineering program. However, by the time they approached me, I had switched to industrial engineering 😅😅😉😉\n\n\n\n\nInternship Report (Mec. Eng.)\nHere is my Internship report about “Mechanical Engineering Workshops” that I prepared in my first year of mechanical engineering. ( September - 2021 )\n\n\n\n\n Back to top"
   },
   {
     "objectID": "GitHub_MySite/Survey (TEST).html",
@@ -159,5 +159,26 @@
     "title": "ORGANIZATIONS",
     "section": "Committee Meetings",
     "text": "Committee Meetings"
+  },
+  {
+    "objectID": "project.html#emu-430-data-analytics-project",
+    "href": "project.html#emu-430-data-analytics-project",
+    "title": "Course Projects",
+    "section": "",
+    "text": "I’m honored to be a member of the CTRL_S project team.\nStay Tuned : Ctrl_S Project Page"
+  },
+  {
+    "objectID": "project.html#emu-332-quality-management-project",
+    "href": "project.html#emu-332-quality-management-project",
+    "title": "Course Projects",
+    "section": "EMU-332 Quality Management Project",
+    "text": "EMU-332 Quality Management Project\nAkıllı telefon pazarına baktığımızda, bugünün en önemli pazarlarından biri olduğunu görüyoruz ve şirketlerin bu rekabetçi alanda öne çıkmak için farklı stratejiler benimsediği açıkça ortada. Şirketler, telefonlarının avantajlarını maksimize etmek için belirli kalite boyutlarına öncelik verirken, diğer boyutlara daha az önem atfederek tüketicilere sunuyorlar. Tüketiciler ise alım kararlarını verirken bu faktörleri göz önünde bulunduruyorlar.\nBu projede, Türkiye’deki akıllı telefon kullanıcılarının telefon satın alırken dikkate aldıkları kriterleri belirlemeye, öncelik verdikleri kalite boyutlarını tanımlamaya ve hangi boyutların onlar için daha az önemli olduğunu anlamaya çalışıldı. Yapılan anketle, önemli görülen boyutlar ile görülmeyen boyutlar arasında bir karşılaştırma yapılarak, kullanıcıların genel tercihleri, tercih ettikleri markalar ve eğilimleri hakkında bilgi edinilmiştir.\nPROJECT REPORT : QUALITY DIMENSIONS IN SMARTPHONES"
+  },
+  {
+    "objectID": "organizations.html#devfest23---17.12.2023",
+    "href": "organizations.html#devfest23---17.12.2023",
+    "title": "ORGANIZATIONS",
+    "section": "",
+    "text": "## Pura Game Jam’23\n\n\n\n\n\n\n\n\n\n\nClick for the final stage\n ## Devfest’22 ( Google Developer Groups & IEEE Hacettepe )\n\n\n\n\n\n ## Career Fair’23\n\n\n\n\n\n # Programmix-V\n\n\n\n\n\n\n\n\n\n\n ## Committee Meetings"
   }
 ]

@@ -17,11 +17,11 @@ website:
         href: posts.qmd
       - text: Organizations
         href: organizations.qmd
-      - text: "EMU430 Coursework"
+      - text: "Courseworks"
         menu:
           - text: Assignments
             href: assignments.qmd
-          - text: Project
+          - text: Projects
             href: project.qmd
             
     tools:

@@ -1,10 +1,25 @@
 ---
-title: "Our Course Project"
+title: "Course Projects"
 sidebar: false 
 ---
+
+## EMU-430 Data Analytics Project
 
 **I'm honored to be a member of the CTRL_S project team.**
 
 **Stay Tuned :** [***Ctrl_S Project Page***](https://emu-hacettepe-analytics.github.io/emu430-fall2023-team-ctrl_s/)
 
 ![](images/daonline.gif)
+
+<br> 
+<br> 
+
+## EMU-332 Quality Management Project
+
+Akıllı telefon pazarına baktığımızda, bugünün en önemli pazarlarından biri olduğunu görüyoruz ve şirketlerin bu rekabetçi alanda öne çıkmak için farklı stratejiler benimsediği açıkça ortada. Şirketler, telefonlarının avantajlarını maksimize etmek için belirli kalite boyutlarına öncelik verirken, diğer boyutlara daha az önem atfederek tüketicilere sunuyorlar. Tüketiciler ise alım kararlarını verirken bu faktörleri göz önünde bulunduruyorlar.
+
+Bu projede, Türkiye'deki akıllı telefon kullanıcılarının telefon satın alırken dikkate aldıkları kriterleri belirlemeye, öncelik verdikleri kalite boyutlarını tanımlamaya ve hangi boyutların onlar için daha az önemli olduğunu anlamaya çalışıldı. Yapılan anketle, önemli görülen boyutlar ile görülmeyen boyutlar arasında bir karşılaştırma yapılarak, kullanıcıların genel tercihleri, tercih ettikleri markalar ve eğilimleri hakkında bilgi edinilmiştir.
+
+PROJECT REPORT : [QUALITY DIMENSIONS IN SMARTPHONES](https://drive.google.com/file/d/1Akh7rcQCC-K0zlY_xDY7cCmocN6rAKGF/view?usp=sharing)
+
+![](images/QA_Animation_2000-min.gif)

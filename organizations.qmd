@@ -6,9 +6,11 @@ sidebar: false
 
 ## Devfest'23 - ***(17.12.2023)***
 
-![](images/Beige & Black Trendy Minimalist Aesthetic Fashion Moodboard Photo Collage Your Story-01.gif)
+![](images/Beige%20&%20Black%20Trendy%20Minimalist%20Aesthetic%20Fashion%20Moodboard%20Photo%20Collage%20Your%20Story-01.gif)
 
-![](images/Beige & Black Trendy Minimalist Aesthetic Fashion Moodboard Photo Collage Your Story (2)-01.gif)
+![](images/Beige%20&%20Black%20Trendy%20Minimalist%20Aesthetic%20Fashion%20Moodboard%20Photo%20Collage%20Your%20Story%20(2)-01.gif)
+
+<br>
 
 ## Pura Game Jam'23
 
@@ -18,19 +20,27 @@ sidebar: false
 
 [Click for the final stage](https://www.youtube.com/watch?v=e_5Iy9uJ4Iw)
 
+<br>
+
 ## Devfest'22 ( Google Developer Groups & IEEE Hacettepe )
 
 ![](images/Devfest.jpg){fig-align="center"}
+
+<br>
 
 ## Career Fair'23
 
 ![](images/Seyahat%20Kolaj.jpg){fig-align="center"}
 
-# Programmix-V
+<br>
+
+## Programmix-V
 
 ![](images/Black%20Collage%20Back%20to%20School%20Photo%20Collage.jpg){fig-align="center"}
 
 ![](images/p51.jpg){fig-align="center" width="568"}
+
+<br>
 
 ## Committee Meetings
 
