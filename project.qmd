@@ -10,7 +10,7 @@ sidebar: false
 \
 Mobile communication technologies have rapidly evolved into a thriving industry and become one of the world's largest markets. In this context, the widespread use of mobile devices globally has created a competitive market, compelling companies to race to expand their shares. Simultaneously, the internal dynamics and market characteristics of each country have played a crucial role in shaping the market shares of mobile vendors.
 
-In this project, we examined the differences between the global market shares of mobile vendors and those in Turkey, along with the underlying reasons for these differences. Initially, we sought to understand how mobile market shares were distributed worldwide. Subsequently, we shifted our focus to Turkey, analyzing the dynamics of mobile vendors\' market shares in this country.
+In this project, we examined the differences between the global market shares of mobile vendors and those in Turkey, along with the underlying reasons for these differences. Initially, we sought to understand how mobile market shares were distributed worldwide. Subsequently, we shifted our focus to Turkey, analyzing the dynamics of mobile vendors' market shares in this country.
 
 **Stay Tuned :** [***Ctrl_S Project Page***](https://emu-hacettepe-analytics.github.io/emu430-fall2023-team-ctrl_s/)
 

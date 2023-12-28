@@ -294,6 +294,14 @@ head(imdb_movies_data)
 head(updated_imdb_movies_data)
 ```
 
+Adding Mean Rate :
+
+```{r}
+updated_imdb_movies_data <- imdb_movies_data %>% 
+  group_by(Year) %>%
+  mutate(Mean_Rate = mean(Rate), Total_Film_Numbers = n())
+```
+
 <br>
 
 <hr>
@@ -337,3 +345,45 @@ search_film("Recep Ivedik 2")
 <br>
 
 <hr>
+
+# PLOTS
+
+### MEAN RATE
+
+```{r}
+plot_mean_rate_per_year_col <- updated_imdb_movies_data %>% 
+  ggplot(aes(x = Year, y = Mean_Rate)) +
+  geom_col()
+
+print(plot_mean_rate_per_year_col)
+
+```
+
+```{r}
+plot_mean_rate_per_year_point <- updated_imdb_movies_data %>% 
+  ggplot(aes(x = Year, y = Mean_Rate)) +
+  geom_point()
+
+print(plot_mean_rate_per_year_point)
+```
+
+### RATE
+
+```{r}
+plot_rate_per_year_box <- updated_imdb_movies_data %>% 
+  ggplot(aes(x = Year, y = Rate)) +
+  geom_boxplot()
+
+print(plot_rate_per_year_box)
+```
+
+### FILM NUMBER
+
+```{r}
+
+plot_total_film_number_per_year_point <- updated_imdb_movies_data %>% 
+  ggplot(aes(x = Year, y = Total_Film_Numbers)) +
+  geom_point()
+
+print(plot_total_film_number_per_year_point)
+```
