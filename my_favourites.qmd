@@ -48,11 +48,11 @@ sidebar: false
 
 3 - Ahiyan
 
-4 - Jaden
+4 - Taemin
 
-5 - Justin Bieber
+5 - Jaden
 
-6 - Selda Bağcan
+6 - Justin Bieber
 
 7 - Bang Yongguk
 

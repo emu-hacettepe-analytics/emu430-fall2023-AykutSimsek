@@ -1,0 +1,339 @@
+---
+title: "imdb_assignment"
+---
+
+# Packages
+
+Firstly, we have to install our packages.
+
+```{r}
+# install.packages("tidyverse")
+# install.packages("rvest")
+# install.packages("stringr")
+# install.packages("ggplot2")
+
+```
+
+<br>
+
+<hr>
+
+Secondly, we need to active these packages.
+
+```{r}
+ library(tidyverse)
+ library(rvest)
+ library(stringr)
+ library(ggplot2)
+```
+
+<br>
+
+<hr>
+
+# Datas
+
+Links which we will pull data
+
+<https://m.imdb.com/search/title/?title_type=feature&release_date=2010-01-01,2023-12-25&num_votes=2499,&country_of_origin=TR&count=250>
+
+<https://m.imdb.com/search/title/?title_type=feature&release_date=,2009-12-31&num_votes=2499,&country_of_origin=TR&count=250>
+
+Assigning links from which we will pull data
+
+```{r}
+link1 <- "https://m.imdb.com/search/title/?title_type=feature&release_date=2010-01-01,2023-12-25&num_votes=2499,&country_of_origin=TR&count=250"
+link2 <- "https://m.imdb.com/search/title/?title_type=feature&release_date=,2009-12-31&num_votes=2499,&country_of_origin=TR&count=250"
+
+page1 <- read_html(link1)
+page2 <- read_html(link2)
+```
+
+<br>
+
+<hr>
+
+# Web Wrangling
+
+We must obtain a "data frame" by parsing the characteristic features of the films. Thus, we can perform our exploratory data analysis with the data set we created.
+
+(Since we have two separate links, after performing separate operations for both of them, we put them into a single vector with the c() function.)
+
+### For Titles :
+
+```{r}
+titles1 <- page1 %>% html_nodes(".dli-title") %>% html_text()
+titles2 <- page2 %>% html_nodes(".dli-title") %>% html_text()
+
+combined_titles <- c(titles1, titles2)
+# print(combined_titles)
+```
+
+<br>
+
+<hr>
+
+### For Years :
+
+```{r}
+years1 <- page1 %>% html_nodes(".dli-title-metadata-item:nth-child(1)") %>% html_text()
+years2 <- page2 %>% html_nodes(".dli-title-metadata-item:nth-child(1)") %>% html_text()
+
+combined_years <- c(years1, years2)
+# print(combined_years)
+```
+
+<br>
+
+<hr>
+
+### For Durations :
+
+```{r}
+durations1 <- page1 %>% html_nodes(".dli-title-metadata-item:nth-child(2)") %>% html_text()
+durations2 <- page2 %>% html_nodes(".dli-title-metadata-item:nth-child(2)") %>% html_text()
+
+combined_durations <- c(durations1, durations2)
+# print(combined_durations)
+```
+
+<br>
+
+<hr>
+
+### For Ratings :
+
+```{r}
+ratings1 <- page1 %>% html_nodes(".ratingGroup--imdb-rating") %>% html_text()
+ratings2 <- page2 %>% html_nodes(".ratingGroup--imdb-rating") %>% html_text()
+
+combined_ratings <- c(ratings1, ratings2)
+# print(combined_ratings)
+```
+
+<br>
+
+<hr>
+
+### For Votes :
+
+```{r}
+votes1 <- page1 %>% html_nodes(".ipc-rating-star--voteCount") %>% html_text()
+votes2 <- page2 %>% html_nodes(".ipc-rating-star--voteCount") %>% html_text()
+
+combined_votes <- c(votes1, votes2)
+# print(combined_votes)
+```
+
+<br>
+
+<hr>
+
+<hr>
+
+# String Processing
+
+We pulled our data from the web. Now we need to make our data suitable for the data frame with string processing.
+
+### For Titles :
+
+```{r}
+title_names1 <- page1 %>% html_nodes('.ipc-title__text')
+title_names1 <- html_text(title_names1)
+title_names1 <- tail(head(title_names1,-1),-1)
+title_names1 <- str_split(title_names1, " ", n=2)
+title_names1 <- unlist(lapply(title_names1, function(x) {x[2]}))
+
+title_names2 <- page2 %>% html_nodes('.ipc-title__text')
+title_names2 <- html_text(title_names2)
+title_names2 <- tail(head(title_names2,-1),-1)
+title_names2 <- str_split(title_names2, " ", n=2)
+title_names2 <- unlist(lapply(title_names2, function(x) {x[2]}))
+
+combined_title_names <- c(title_names1, title_names2)
+# print(combined_title_names)
+```
+
+<br>
+
+<hr>
+
+### For Years :
+
+Since the year data is available, we do not need to do any processing on them.
+
+<hr>
+
+<br>
+
+<hr>
+
+### For Durations :
+
+```{r}
+# For Durations - 1
+# Saat ve daikaları ayırıp tanımlıyorum :
+hours1 <- as.integer(str_extract(durations1, "\\d+(?=h)"))  # For Hours
+minutes1 <- as.integer(str_extract(durations1, "\\d+(?=m)"))  # For Minutes
+
+hours1[is.na(hours1)] <- as.integer("0")     # sadece dakika olan var ise
+minutes1[is.na(minutes1)] <- as.integer("0") # sadece saat olan var ise
+
+# Süreleri dakika cinsine dönüştürmek için :
+total_duration_minutes1 <- (hours1 * 60) + minutes1
+
+
+
+# For Durations - 2
+hours2 <- as.integer(str_extract(durations2, "\\d+(?=h)"))
+minutes2 <- as.integer(str_extract(durations2, "\\d+(?=m)"))
+
+hours2[is.na(hours2)] <- as.integer("0")
+minutes2[is.na(minutes2)] <- as.integer("0")
+
+total_duration_minutes2 <- (hours2 * 60) + minutes2
+
+
+combined_durations <- c(total_duration_minutes1 , total_duration_minutes2)
+# print(combined_durations)
+```
+
+<br>
+
+<hr>
+
+### For Votes :
+
+```{r}
+votes1 <- page1 %>% html_nodes(".ipc-rating-star--voteCount") %>% html_text()
+votes2 <- page2 %>% html_nodes(".ipc-rating-star--voteCount") %>% html_text()
+
+# From ChatGPT :
+votes1 <- str_replace_all(votes1, "[()]", "")
+votes2 <- str_replace_all(votes2, "[()]", "")
+
+# From ChatGPT :
+votes1 <- str_remove_all(votes1, "[^0-9.K]")
+votes2 <- str_remove_all(votes2, "[^0-9.K]")
+
+
+votes_numeric1 <- str_remove_all(votes1, "K") %>% as.numeric() * 1000
+votes_numeric2 <- str_remove_all(votes2, "K") %>% as.numeric() * 1000
+
+combined_votes <- c(votes_numeric1 , votes_numeric2)
+# print(combined_votes)
+```
+
+<br>
+
+<hr>
+
+### For Ratings :
+
+```{r}
+# Parantezleri tamamen kaldırma
+rating_no_parant1 <- str_replace_all(combined_ratings, "\\(.*\\)", "")
+rating_no_parant_no_space <- str_trim(str_extract(rating_no_parant1, "^\\d+\\.?\\d*"))
+
+# Simdi sayıları double tipine çevirelim : 
+combined_ratings <- as.double(rating_no_parant_no_space)
+
+class(combined_ratings)
+# print(combined_ratings)
+
+```
+
+<br>
+
+<hr>
+
+<hr>
+
+# Creating a Data Frame :
+
+We have completed String Processing. All the data we have obtained now is of a simple and appropriate type suitable for adding to the data frame.
+
+```{r}
+imdb_movies_data <- data.frame(Title = combined_title_names, Year = combined_years, Duration = combined_durations, Rate = combined_ratings, Vote = combined_votes)
+```
+
+<br>
+
+<hr>
+
+<hr>
+
+# Upgrade Data Frame
+
+Let's sort our data set in decreasing order of vote rate.
+
+```{r}
+imdb_movies_data_rate_decreasing <- imdb_movies_data %>%
+  arrange(desc(Rate))
+```
+
+Let's add a column to our data set showing the average rate by year.
+
+```{r}
+updated_imdb_movies_data <- imdb_movies_data_rate_decreasing %>% 
+  group_by(Year) %>%
+  mutate(Mean_Rate = mean(Rate))
+```
+
+Let's add a column to our data set showing its rank according to vote rate s:
+
+```{r}
+updated_imdb_movies_data <- imdb_movies_data_rate_decreasing %>%
+  mutate(Order = row_number())
+```
+
+Let's examine the differences :
+
+```{r}
+head(imdb_movies_data)
+head(updated_imdb_movies_data)
+```
+
+<br>
+
+<hr>
+
+# Extras
+
+### Let's find the 5 movies with the highest and lowest scores based on IMDb scores.
+
+```{r}
+imdb_movies_data_rate_decreasing <- imdb_movies_data %>%
+  arrange(desc(Rate))
+
+# En iyi ve en kotu 5 film :
+print("En iyi oy oranına sahip 5 film:")
+print(head(imdb_movies_data_rate_decreasing, 5))
+
+# En alttaki 5 satırı yazdır
+print("En kotu oy oranına sahip 5 film:")
+print(tail(imdb_movies_data_rate_decreasing, 5))
+
+```
+
+<br>
+
+<hr>
+
+### Let's examine the imdb data of 4 movies I like.
+
+```{r}
+search_film <- function(name_of_the_film) {
+  result <- imdb_movies_data_rate_decreasing[imdb_movies_data_rate_decreasing$Title == name_of_the_film, ]
+  return(result)
+}
+
+search_film("Senden Bana Kalan")
+search_film("Aykut Eniste")
+search_film("Kolonya Cumhuriyeti")
+search_film("Recep Ivedik 2")
+```
+
+<br>
+
+<hr>

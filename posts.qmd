@@ -9,8 +9,8 @@ sidebar: false
 
 ![](images/74Zh.gif){width="254"}
 
-
 <br>
+
 <hr>
 
 ### Beats
@@ -30,8 +30,8 @@ sidebar: false
 [***Seventeen***](https://soundcloud.com/user-426111215/17a/s-Mwt5IkDI9F7?si=d5c63ca1829c4fa8b0ccf777c9c74937&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
 
 <br>
-<hr>
 
+<hr>
 
 ### Pura Game Jam
 
@@ -42,19 +42,17 @@ sidebar: false
 [***Final Etap Video ( Live Cast )***](https://www.youtube.com/live/e_5Iy9uJ4Iw?si=K9Ull8n7Vq3ftUEo)
 
 <br>
-<hr>
 
+<hr>
 
 ### Advice Video (Mech. Eng.)
 
 ***I have a [college application advice video](https://www.youtube.com/watch?v=4CKD12YSNf8&t=570s)*** ***from the days when I was studying mechanical engineering. Students who watched this video got accepted to the Hacettepe University Mechanical Engineering program. However, by the time they approached me, I had switched to industrial engineering 😅😅😉😉***
 
 <br>
-<hr>
 
+<hr>
 
 ### Internship Report (Mec. Eng.)
 
 ***Here is my*** [***Internship report***](https://drive.google.com/file/d/10M1pHxDi-yzMD_AkHYP7ZVRZeZ2zAO5V/view?usp=sharing "Raport Link") ***about "Mechanical Engineering Workshops" that I prepared in my first year of mechanical engineering. ( September - 2021 )***
-
-
