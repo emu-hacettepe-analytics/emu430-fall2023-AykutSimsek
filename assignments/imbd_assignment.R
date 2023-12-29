@@ -21,8 +21,6 @@ titles2 <- page2 %>% html_nodes(".ipc-title__text") %>% html_text()
 
 
 
-
-
 # -----------------------------------------------------------------------------
 
 titles1 <- page1 %>% html_nodes(".dli-title") %>% html_text()
@@ -96,7 +94,7 @@ hours1[is.na(hours1)] <- as.integer("0")     # sadece dakika olan var ise
 minutes1[is.na(minutes1)] <- as.integer("0") # sadece saat olan var ise
 
 # Süreleri dakika cinsine dönüştürmek için :
-total_duration_minutes1 <- (hours1 * 60) + minutes
+total_duration_minutes1 <- (hours1 * 60) + minutes1
 
 
 
